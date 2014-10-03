@@ -28,7 +28,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Dalvik VM config for 1356MB (1.5GB) RAM devices
+# Dalvik VM config for 1536MB (1.5GB) RAM devices
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=8m \
     dalvik.vm.heapgrowthlimit=128m \
@@ -109,7 +109,10 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8226
-	
+
+# Hardware
+$(call inherit-product-if-exists, hardware/qcom/msm8x74/msm8x74.mk)
+
 # IRSC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
