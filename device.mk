@@ -78,6 +78,7 @@ PRODUCT_PACKAGES += \
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8226 \
+    libgenlock \
     gralloc.msm8226 \
     hwcomposer.msm8226 \
     memtrack.msm8226 \
@@ -88,6 +89,8 @@ PRODUCT_PACKAGES += \
     ebtables \
     ethertypes \
     libebtc
+
+PRODUCT_PACKAGES += libion
 
 # Filesystem
 PRODUCT_PACKAGES += \
