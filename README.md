@@ -5,7 +5,7 @@ European Single SIM variant GT-I9301I
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Dual-core 1.4 GHz Cortex-A7
+CPU     | Quad-core 1.4 GHz Cortex-A7
 CHIPSET | Qualcomm Snapdragon 400
 GPU     | Adreno 305
 Memory  | 1.5GB RAM
